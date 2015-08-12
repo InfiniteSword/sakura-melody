@@ -1,0 +1,156 @@
+body{
+    font-family: Verdana, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+ul,li{
+    list-style: none;
+}
+
+
+#ctn{
+    position: absolute;
+    color: #fff;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    background: #ff99cc;
+    background: -moz-linear-gradient(top,  #ff3366 0%, #ffccff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff3366), color-stop(100%,#ffccff));
+    background: -webkit-linear-gradient(top,  #ff3366 0%,#ffccff 100%);
+    background: -o-linear-gradient(top,  #ff3366 0%,#ffccff 100%);
+    background: -ms-linear-gradient(top,  #ff3366 0%,#ffccff 100%);
+    background: linear-gradient(to bottom,  #ff3366 0%,#ffccff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3366', endColorstr='#ffccff',GradientType=0 );
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+:root #ctn{filter:none;}
+
+
+.main{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    margin-top: -200px;
+    left: 50%;
+    margin-left: -300px;
+}
+
+#song-name{
+    font-size: 34px;
+    font-weight: 100;
+    line-height: 34px;
+}
+
+
+.btn{
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 25px;
+}
+.iconfont{
+    font-size: 42px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.btn:hover .iconfont{
+    -webkit-text-shadow:1px 1px 10px rgba(255, 255, 255, .7);
+    -moz-text-shadow:1px 1px 10px rgba(255, 255, 255, .7);
+    text-shadow:1px 1px 10px rgba(255, 255, 255, .7);
+}
+
+
+#progress-line{
+    width: 500px;
+    margin: 50px auto;
+    height: 1px;
+    border: 1px #fff solid;
+    cursor: pointer;
+}
+#progress{
+    display: inline-block;
+    height: 1px;
+    width: 80px;
+    background: #fff;
+    float: left;
+}
+
+#music-list{
+    position: fixed;
+    margin-left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    -webkit-transition: margin .3s ease;
+    -moz-transition: margin .3s ease;
+    -ms-transition: margin .3s ease;
+    -o-transition: margin .3s ease;
+    transition: margin .3s ease;
+}
+#close{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 97%;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: color .3s ease;
+    -moz-transition: color .3s ease;
+    -ms-transition: color .3s ease;
+    -o-transition: color .3s ease;
+    transition: color .3s ease;
+}
+#close:hover{
+    color: #ff3366;
+}
+.music-pieces{
+    display: block;
+    width: 980px;
+    margin: auto;
+}
+.music-pieces li{
+    font-size: 18px;
+    color: #fff;
+    margin: 25px;
+    width: 400px;
+    height: 100px;
+    background: rgba(0,0,0,.1);
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.music-info{
+    cursor: pointer;
+    margin-left: 10px;
+    line-height: 50px;
+}
+.music-pieces li:hover{
+    -webkit-box-shadow:0 0 10px rgba(204, 153, 153, .7);
+    -moz-box-shadow:0 0 10px rgba(204, 153, 153, .7);
+    box-shadow:0 0 10px rgba(204, 153, 153, .7);
+}
+.music-info p{
+    margin-top: -30px;
+}
+
+
+
+
+
+
