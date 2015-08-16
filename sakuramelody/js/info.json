@@ -1,4 +1,176 @@
-{
-  "name": "application-name",
-  "version": "0.0.1"
-}
+[{
+  "id": "1",
+  "name": "Time after time〜花舞う街で〜",
+  "author": "倉木麻衣",
+  "src": "music/倉木麻衣 - Time after time〜花舞う街で〜.mp3"
+} ,{
+  "id": "2",
+  "name": "さくら さくら",
+  "author": "倉木麻衣",
+  "src": "music/倉木麻衣 - さくら さくら.mp3"
+} ,{
+  "id": "3",
+  "name": "Sakura",
+  "author": "川澄綾子",
+  "src": "music/川澄綾子 - Sakura.mp3"
+} ,{
+  "id": "4",
+  "name": "桜慕情",
+  "author": "川嶋あい",
+  "src": "music/川嶋あい - 桜慕情.mp3"
+} ,{
+  "id": "5",
+  "name": "Sakuranbo",
+  "author": "大塚愛",
+  "src": "music/大塚愛 - Sakuranbo.mp3"
+} ,{
+  "id": "6",
+  "name": "桜",
+  "author": "河口恭吾",
+  "src": "music/河口恭吾 - 桜.mp3"
+} ,{
+  "id": "7",
+  "name": "桜",
+  "author": "堀江由衣",
+  "src": "music/堀江由衣 - 桜.mp3"
+} ,{
+  "id": "8",
+  "name": "Diary",
+  "author": "青山テルマ",
+  "src": "music/青山テルマ - Diary.mp3"
+} ,{
+  "id": "9",
+  "name": "あなたが消えちゃいそうで",
+  "author": "青山テルマ",
+  "src": "music/青山テルマ - あなたが消えちゃいそうで.mp3"
+} ,{
+  "id": "10",
+  "name": "桜咲く",
+  "author": "三浦サリー",
+  "src": "music/三浦サリー - 桜咲く.mp3"
+} ,{
+  "id": "11",
+  "name": "ホシトハナ",
+  "author": "三森すずこ,内山夕実,黒沢ともよ",
+  "src": "music/三森すずこ,内山夕実,黒沢ともよ - ホシトハナ.mp3"
+} ,{
+  "id": "12",
+  "name": "桜の雨,いつか",
+  "author": "松たか子",
+  "src": "music/松たか子 - 桜の雨,いつか.mp3"
+} ,{
+  "id": "13",
+  "name": "桜",
+  "author": "熊木杏里",
+  "src": "music/熊木杏里 - 桜.mp3"
+} ,{
+  "id": "14",
+  "name": "桜流し",
+  "author": "宇多田ヒカル",
+  "src": "music/宇多田ヒカル - 桜流し.mp3"
+} ,{
+  "id": "15",
+  "name": "SAKURAドロップス",
+  "author": "宇多田ヒカル",
+  "src": "music/宇多田ヒカル - SAKURAドロップス.mp3"
+} ,{
+  "id": "16",
+  "name": "桜色舞うころ",
+  "author": "中島美嘉",
+  "src": "music/中島美嘉 - 桜色舞うころ.mp3"
+} ,{
+  "id": "17",
+  "name": "桜色",
+  "author": "竹井詩織里",
+  "src": "music/竹井詩織里 - 桜色.mp3"
+} ,{
+  "id": "18",
+  "name": "SAKURA",
+  "author": "Che'Nelle",
+  "src": "music/Che'Nelle - SAKURA.mp3"
+} ,{
+  "id": "19",
+  "name": "桜ロック",
+  "author": "CHERRYBLOSSOM",
+  "src": "music/CHERRYBLOSSOM - 桜ロック.mp3"
+} ,{
+  "id": "20",
+  "name": "Flower Dance",
+  "author": "DJ OKAWARI",
+  "src": "music/DJ OKAWARI - Flower Dance.mp3"
+} ,{
+  "id": "21",
+  "name": "SAKURAリグレット",
+  "author": "FLOWER",
+  "src": "music/FLOWER - SAKURAリグレット.mp3"
+} ,{
+  "id": "22",
+  "name": "桜雨",
+  "author": "JUJU",
+  "src": "music/JUJU - 桜雨.mp3"
+} ,{
+  "id": "23",
+  "name": "桜の树の下",
+  "author": "KOKIA",
+  "src": "music/KOKIA - 桜の树の下.mp3"
+} ,{
+  "id": "24",
+  "name": "桜川",
+  "author": "MAGIC OF LiFE",
+  "src": "music/MAGIC OF LiFE - 桜川.mp3"
+} ,{
+  "id": "25",
+  "name": "ゆらり桜空…",
+  "author": "MARIA",
+  "src": "music/MARIA - ゆらり桜空….mp3"
+} ,{
+  "id": "26",
+  "name": "千本桜",
+  "author": "rain book",
+  "src": "music/rain book - 千本桜.mp3"
+} ,{
+  "id": "27",
+  "name": "さくら ~あなたに出会えてよかった~",
+  "author": "RSP",
+  "src": "music/RSP - さくら ~あなたに出会えてよかった~.mp3"
+} ,{
+  "id": "28",
+  "name": "桜のような恋でした",
+  "author": "samfree",
+  "src": "music/samfree - 桜のような恋でした -featuring ceui-.mp3"
+} ,{
+  "id": "29",
+  "name": "さくらびと",
+  "author": "SunSet Swish",
+  "src": "music/SunSet Swish - さくらびと.mp3"
+} ,{
+  "id": "30",
+  "name": "桜",
+  "author": "α·Pav",
+  "src": "music/α·Pav - 桜.mp3"
+} ,{
+  "id": "31",
+  "name": "花は桜 君は美し",
+  "author": "いきものがかり",
+  "src": "music/いきものがかり - 花は桜 君は美し.mp3"
+} ,{
+  "id": "32",
+  "name": "SAKURA",
+  "author": "いきものがかり",
+  "src": "music/いきものがかり - SAKURA.mp3"
+} ,{
+  "id": "33",
+  "name": "桜",
+  "author": "コブクロ",
+  "src": "music/コブクロ - 桜.mp3"
+} ,{
+  "id": "34",
+  "name": "ハルノヒ",
+  "author": "Halozy",
+  "src": "music/ハルノヒ.mp3"
+} ,{
+  "id": "35",
+  "name": "桜音",
+  "author": "ピコ",
+  "src": "music/ピコ - 桜音.mp3"
+}]

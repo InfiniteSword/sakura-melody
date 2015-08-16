@@ -20,20 +20,13 @@ ul,li{
     margin: auto;
     text-align: center;
     background: #ff99cc;
-    background: -moz-linear-gradient(top,  #ff3366 0%, #ffccff 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff3366), color-stop(100%,#ffccff));
     background: -webkit-linear-gradient(top,  #ff3366 0%,#ffccff 100%);
-    background: -o-linear-gradient(top,  #ff3366 0%,#ffccff 100%);
-    background: -ms-linear-gradient(top,  #ff3366 0%,#ffccff 100%);
     background: linear-gradient(to bottom,  #ff3366 0%,#ffccff 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3366', endColorstr='#ffccff',GradientType=0 );
     -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    -ms-transition: all .3s ease;
-    -o-transition: all .3s ease;
     transition: all .3s ease;
 }
-:root #ctn{filter:none;}
 
 
 .main{
@@ -52,7 +45,15 @@ ul,li{
     line-height: 34px;
 }
 
-
+.control-icon{
+    moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
 .btn{
     display: inline-block;
     cursor: pointer;
@@ -61,9 +62,6 @@ ul,li{
 .iconfont{
     font-size: 42px;
     -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    -ms-transition: all .3s ease;
-    -o-transition: all .3s ease;
     transition: all .3s ease;
 }
 .btn:hover .iconfont{
@@ -83,7 +81,7 @@ ul,li{
 #progress{
     display: inline-block;
     height: 1px;
-    width: 80px;
+    width: 0px;
     background: #fff;
     float: left;
 }
@@ -95,10 +93,8 @@ ul,li{
     height: 100%;
     background: rgba(0,0,0,.5);
     -webkit-transition: margin .3s ease;
-    -moz-transition: margin .3s ease;
-    -ms-transition: margin .3s ease;
-    -o-transition: margin .3s ease;
     transition: margin .3s ease;
+    overflow: auto;
 }
 #close{
     position: absolute;
@@ -108,9 +104,6 @@ ul,li{
     color: #fff;
     cursor: pointer;
     -webkit-transition: color .3s ease;
-    -moz-transition: color .3s ease;
-    -ms-transition: color .3s ease;
-    -o-transition: color .3s ease;
     transition: color .3s ease;
 }
 #close:hover{
@@ -125,31 +118,38 @@ ul,li{
     font-size: 18px;
     color: #fff;
     margin: 25px;
-    width: 400px;
+    width: 440px;
     height: 100px;
     background: rgba(0,0,0,.1);
     -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    -ms-transition: all .3s ease;
-    -o-transition: all .3s ease;
     transition: all .3s ease;
+    float: left;
 }
 
 .music-info{
     cursor: pointer;
-    margin-left: 10px;
     line-height: 50px;
+    margin: 0 20px;
 }
 .music-pieces li:hover{
-    -webkit-box-shadow:0 0 10px rgba(204, 153, 153, .7);
-    -moz-box-shadow:0 0 10px rgba(204, 153, 153, .7);
     box-shadow:0 0 10px rgba(204, 153, 153, .7);
+}
+.music-info h3{
+    margin-top: 0px;
 }
 .music-info p{
     margin-top: -30px;
 }
 
+.blur {
+    filter: url(blur.svg#blur); /* FireFox, Chrome, Opera */
 
+    -webkit-filter: blur(10px); /* Chrome, Opera */
+    -moz-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false); /* IE6~IE9 */
+}
 
 
 

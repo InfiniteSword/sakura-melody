@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="keywords" content="sakura,sakuramelody,樱,桜">
+    <meta name="author" content="Misic">
     <title>Sakura Melody</title>
     <link rel="stylesheet" href="css/normalize.css"/>
     <link rel="stylesheet" href="icon/iconfont.css"/>
@@ -9,19 +11,19 @@
 </head>
 <body>
 
-    <audio src=""></audio>
+    <audio id="player" src="music/倉木麻衣 - Time after time〜花舞う街で〜.mp3"></audio>
 
     <div class="app" data-ng-app="musicOnplay" data-ng-controller="musicController">
         <div id="ctn">
             <div class="main">
                 <div class="info">
-                    <h1 id="song-name">{{musicNow.name}}</h1>
-                    <p id="author">{{musicNow.author}}</p>
+                    <h1 id="song-name">Time after time〜花舞う街で〜</h1>
+                    <p id="author">倉木麻衣</p>
                 </div>
                 <div class="control-icon">
                     <div class="btn"><i id="list" class="iconfont">&#xe62b;</i></div>
                     <div class="btn"><i id="prev" class="iconfont">&#xe64d;</i></div>
-                    <div class="btn"><i id="play" class="iconfont">&#xf0001;</i></div>
+                    <div class="btn"><i id="mctr" class="iconfont">&#xf0001;</i></div>
                     <div class="btn"><i id="next" class="iconfont">&#xe64e;</i></div>
                     <div class="btn"><i id="download" class="iconfont">&#xe62d;</i></div>
                 </div>
@@ -32,7 +34,7 @@
         <div id="music-list">
             <span id="close">&#10005;</span>
             <ul class="music-pieces">
-                <li data-ng-repeat="x in music | filter: query">
+                <li class="music-lis" data-ng-repeat="x in music | filter: query">
                     <div class="music-info">
                         <h3>{{x.name}}</h3>
                         <p>{{x.author}}</p>
@@ -49,7 +51,6 @@
 
 
 <script src="js/angular.min.js"></script>
-<script src="js/showlist.js"></script>
-<!--<script src="js/player.js"></script>-->
+<script src="js/player.js"></script>
 </body>
 </html>
