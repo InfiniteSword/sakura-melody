@@ -1,5 +1,5 @@
 /**
- * Created by Misic on 15/8/12.
+ * Created on 15/8/12.
  */
 
 var musicOnplay = angular.module('musicOnplay',[]);
@@ -126,15 +126,18 @@ musicOnplay.controller('musicController', function($scope, $http){
 
         btn_list.addEventListener('click',function(){
             ctn_list.style.marginLeft = '0';
-            ctn.style.width = '80%';
-            ctn.style.height = '80%';
-            ctn.className = "blur";
+            ctn.style.webkitTransform = 'scale(0.8,0.8)';
+            ctn.style.MozTransform = 'scale(0.8,0.8)';
+            ctn.style.msTransform = 'scale(0.8,0.8)';
+            ctn.style.transform = 'scale(0.8,0.8)';
+
         });
         close.addEventListener('click',function(){
             ctn_list.style.marginLeft = '-100%';
-            ctn.style.width = '100%';
-            ctn.style.height = '100%';
-            ctn.className = "";
+            ctn.style.webkitTransform = 'scale(1,1)';
+            ctn.style.MozTransform = 'scale(1,1)';
+            ctn.style.msTransform = 'scale(1,1)';
+            ctn.style.transform = 'scale(1,1)';
         });
     }
 
@@ -157,15 +160,16 @@ musicOnplay.controller('musicController', function($scope, $http){
                         player.play();
                         mctr.innerHTML = "&#xe633;";
                         ctn_list.style.marginLeft = '-100%';
-                        ctn.style.width = '100%';
-                        ctn.style.height = '100%';
-                        ctn.className = "";
+                        ctn.style.webkitTransform = 'scale(1,1)';
+                        ctn.style.MozTransform = 'scale(1,1)';
+                        ctn.style.msTransform = 'scale(1,1)';
+                        ctn.style.transform = 'scale(1,1)';
                     });
                 })(i);
             }
         }
         chooseMusic();
-    }
+    };
 
 
     listShow();

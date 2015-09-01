@@ -47,10 +47,18 @@
 
 
 
-
-
-
-<script src="js/angular.min.js"></script>
-<script src="js/player.js"></script>
 </body>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/sakura.js"></script>
+    <script>
+    $(function(){
+        $.fn.sakura({
+            minSize: 5,
+            maxSize: 50,
+            newOn: 300
+        });
+    });
+    </script>
 </html>
